@@ -91,7 +91,7 @@ progress::-moz-progress-bar {
   font-size: 14px;
   font-weight: bold;
 }
-/*
+
 .slider{
   margin-top: -5px;
   position: relative;
@@ -107,7 +107,7 @@ progress::-moz-progress-bar {
   border: 6px solid transparent; 
   border-bottom: 6px solid rgb(100, 100, 100); 
 }
-*/
+/*
 .value{
   position: relative;
   left: -50px;
@@ -115,6 +115,7 @@ progress::-moz-progress-bar {
   font-weight: bold;
   color: rgb(100, 100, 100);
 }
+*/
 .indicator-main footer{
 
   display: flex;
