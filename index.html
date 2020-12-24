@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+ 
+  <main>
+    <section class="indicator-demo">
+      <header>
+        <h2>Target indicator demo</h2>
+      </header>
+      <div class="indicator-wrapper">
+        <div class="indicator-main">
+
+            <div class="indicator">
+              <label>Reached:</label>
+              <div class="input"> 
+                <input type="range" min="0" max="15" step="1" value="14">
+              </div>
+ <!--           
+              <progress value="14" max="15"></progress>
+--> 
+              <div class="target">
+                <p class="target-top">Target</p>
+                <p class="target-bottom">15$</p>
+              </div>
+         
+            </div>
+ 
+ 
+            <div class="value"><!--   class="slider" -->
+              $14
+            </div>
+ 
+            <footer>
+              <img src="info.jpg"  height="20px">
+              <p class="footer-text">You need 1$ more to reach your target</p>
+            </footer>
+        </div>
+
+      </div>
+    </section>
+  </main>
+<script src="app.js"></script>
+</body>
+</html>
