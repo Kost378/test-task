@@ -127,7 +127,6 @@ progress::-moz-progress-bar {
 
 .input{
   display: flex;
-
   width: 128px;
   margin-top: 20px;
   overflow: hidden;
